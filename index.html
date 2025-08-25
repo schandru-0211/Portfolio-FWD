@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Portfolio - S. Chandru</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #111; /* dark background */
+      color: #fff;
+      text-align: center;
+    }
+
+    /* Navigation */
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4081;
+    }
+
+    /* Profile Pic */
+    .profile-pic {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Intro Text */
+    h2 {
+      font-size: 18px;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 22px;
+      color: #ff4081;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+     font-weight:bolder;
+      color: #ddd;
+    }
+
+    /* Social Links */
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 26px;
+      text-decoration: none;
+      color: #ff4081;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #fff;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #ff4081;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Profile Section -->
+  <div class="profile-pic">
+    <img src="profile.jpeg" alt="S. Chandru Profile Photo">
+  </div>
+
+  <h2>Hi, I am</h2>
+  <h1>S. Chandru</h1>
+  <h3>B.Sc. Computer Science Student</h3>
+  <p>
+  I am currently pursuing a B.Sc. in Computer Science and have a keen interest in cricket and continuous learning. I am also preparing for government examinations, which helps me enhance my knowledge and discipline. I am a motivated and goal-oriented individual with a passion for both academics and extracurricular activities.
+  </p>
+
+  <!-- Social Links -->
+  <div class="social-links">
+    <a href="mailto:schandruchandru1208@gmail.com">📧</a>
+    <a href="https://instagram.com/mr_sanjay0211" target="_blank">📸</a>
+    <a href="tel:+919629560211">📱</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 S. Chandru | B.Sc. Computer Science
+  </footer>
+
+</body>
+</html>
